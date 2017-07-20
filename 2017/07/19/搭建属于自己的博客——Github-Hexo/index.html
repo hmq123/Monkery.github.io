@@ -5,16 +5,37 @@
   
   <title>搭建属于自己的博客——Github+Hexo | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="搭建指南百度一下，关于Github+Hexo搭建博客的相关资料很多，我也是在前人的基础上学习，希望能帮助大家快速搭建博客。 一、环境准备1、Node.js安装　　安装教程先自行百度，后期有时间奉上。直接进入验证node.js是否正确安装：打开cmd，输入一下命令    node -v 附参考地址：http://blog.csdn.net/gdutxiaoxu/article/details/535">
+  <meta name="description" content="搭建指南百度一下，关于Github+Hexo搭建博客的相关资料很多，我也是在前人的基础上学习，希望能帮助大家快速搭建博客。 一、环境准备1、Node.js安装安装教程先自行百度，后期有时间奉上。直接进入验证node.js是否正确安装：打开cmd，输入以下命令：    node -v     npm -v  如下图出现版本号信息即已成功安装： 2、Git安装与配置和Node.js一样，大部分设置保持">
 <meta property="og:type" content="article">
 <meta property="og:title" content="搭建属于自己的博客——Github+Hexo">
 <meta property="og:url" content="http://yoursite.com/2017/07/19/搭建属于自己的博客——Github-Hexo/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="搭建指南百度一下，关于Github+Hexo搭建博客的相关资料很多，我也是在前人的基础上学习，希望能帮助大家快速搭建博客。 一、环境准备1、Node.js安装　　安装教程先自行百度，后期有时间奉上。直接进入验证node.js是否正确安装：打开cmd，输入一下命令    node -v 附参考地址：http://blog.csdn.net/gdutxiaoxu/article/details/535">
-<meta property="og:updated_time" content="2017-07-19T10:01:47.475Z">
+<meta property="og:description" content="搭建指南百度一下，关于Github+Hexo搭建博客的相关资料很多，我也是在前人的基础上学习，希望能帮助大家快速搭建博客。 一、环境准备1、Node.js安装安装教程先自行百度，后期有时间奉上。直接进入验证node.js是否正确安装：打开cmd，输入以下命令：    node -v     npm -v  如下图出现版本号信息即已成功安装： 2、Git安装与配置和Node.js一样，大部分设置保持">
+<meta property="og:image" content="http://i.imgur.com/DOcAKHM.png">
+<meta property="og:image" content="http://i.imgur.com/V08X3gY.png">
+<meta property="og:image" content="http://i.imgur.com/KWsViol.png">
+<meta property="og:image" content="http://i.imgur.com/kYFNxan.png">
+<meta property="og:image" content="http://i.imgur.com/5MrsCZh.png">
+<meta property="og:image" content="http://i.imgur.com/CDObzZC.png">
+<meta property="og:image" content="http://i.imgur.com/VYHbueX.png">
+<meta property="og:image" content="http://i.imgur.com/zOYc88b.png">
+<meta property="og:image" content="http://i.imgur.com/RYTijYK.png">
+<meta property="og:image" content="http://i.imgur.com/5qXmWD3.png">
+<meta property="og:image" content="http://i.imgur.com/q5A0OJe.png">
+<meta property="og:image" content="http://i.imgur.com/boLBzSO.png">
+<meta property="og:image" content="http://i.imgur.com/ZQhWB1k.png">
+<meta property="og:image" content="http://i.imgur.com/JvUh2Z1.png">
+<meta property="og:image" content="http://i.imgur.com/thaAxcK.png">
+<meta property="og:image" content="http://i.imgur.com/bHMixhN.png">
+<meta property="og:image" content="http://i.imgur.com/Gg5e5Vo.png">
+<meta property="og:image" content="http://i.imgur.com/hAxPOQp.png">
+<meta property="og:image" content="http://i.imgur.com/2pNKHV6.png">
+<meta property="og:image" content="http://i.imgur.com/n1tbW9j.png">
+<meta property="og:updated_time" content="2017-07-20T07:56:21.333Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="搭建属于自己的博客——Github+Hexo">
-<meta name="twitter:description" content="搭建指南百度一下，关于Github+Hexo搭建博客的相关资料很多，我也是在前人的基础上学习，希望能帮助大家快速搭建博客。 一、环境准备1、Node.js安装　　安装教程先自行百度，后期有时间奉上。直接进入验证node.js是否正确安装：打开cmd，输入一下命令    node -v 附参考地址：http://blog.csdn.net/gdutxiaoxu/article/details/535">
+<meta name="twitter:description" content="搭建指南百度一下，关于Github+Hexo搭建博客的相关资料很多，我也是在前人的基础上学习，希望能帮助大家快速搭建博客。 一、环境准备1、Node.js安装安装教程先自行百度，后期有时间奉上。直接进入验证node.js是否正确安装：打开cmd，输入以下命令：    node -v     npm -v  如下图出现版本号信息即已成功安装： 2、Git安装与配置和Node.js一样，大部分设置保持">
+<meta name="twitter:image" content="http://i.imgur.com/DOcAKHM.png">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -52,9 +73,9 @@
       </nav>
       <nav id="sub-nav">
         
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="Flux RSS"></a>
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Rechercher"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Zoeken"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
@@ -86,13 +107,36 @@
     <div class="article-entry" itemprop="articleBody">
       
         <h1 id="搭建指南"><a href="#搭建指南" class="headerlink" title="搭建指南"></a>搭建指南</h1><p>百度一下，关于Github+Hexo搭建博客的相关资料很多，我也是在前人的基础上学习，希望能帮助大家快速搭建博客。</p>
-<h1 id="一、环境准备"><a href="#一、环境准备" class="headerlink" title="一、环境准备"></a>一、环境准备</h1><h2 id="1、Node-js安装"><a href="#1、Node-js安装" class="headerlink" title="1、Node.js安装"></a>1、Node.js安装</h2><p>　　安装教程先自行百度，后期有时间奉上。直接进入验证node.js是否正确安装：打开cmd，输入一下命令<br>    <code>node -v</code></p>
+<h1 id="一、环境准备"><a href="#一、环境准备" class="headerlink" title="一、环境准备"></a>一、环境准备</h1><h2 id="1、Node-js安装"><a href="#1、Node-js安装" class="headerlink" title="1、Node.js安装"></a>1、Node.js安装</h2><p>安装教程先自行百度，后期有时间奉上。直接进入验证node.js是否正确安装：打开cmd，输入以下命令：<br><br>    <code>node -v</code> <br><br>    <code>npm -v</code>  <br><br>如下图出现版本号信息即已成功安装：<br><br><img src="http://i.imgur.com/DOcAKHM.png" alt="node.js验证是否成功安装"></p>
+<h2 id="2、Git安装与配置"><a href="#2、Git安装与配置" class="headerlink" title="2、Git安装与配置"></a>2、Git安装与配置</h2><p>和Node.js一样，大部分设置保持默认就行了，下面检查Git是否安装正确，打开命令行输入：<br><br><code>git --version</code> <br><br>如果结果如下图所示，则说明安装正确，可以进行下一步了，如果不正确，则需要回头检查自己的安装过程。<br><br><img src="http://i.imgur.com/V08X3gY.png" alt="Git验证是否成功安装"></p>
+<h1 id="二、安装hexo"><a href="#二、安装hexo" class="headerlink" title="二、安装hexo"></a>二、安装hexo</h1><h2 id="1、创建hexo文件夹"><a href="#1、创建hexo文件夹" class="headerlink" title="1、创建hexo文件夹"></a>1、创建hexo文件夹</h2><p>在合适的地方创建hexo文件夹，这里我创建在F:/hexo</p>
+<h2 id="2、打开cmd，进入hexo，输入以下命令行："><a href="#2、打开cmd，进入hexo，输入以下命令行：" class="headerlink" title="2、打开cmd，进入hexo，输入以下命令行："></a>2、打开cmd，进入hexo，输入以下命令行：</h2><p><code>npm install hexo-cli -g</code> <br><br><code>npm install hexo --save</code> <br></p>
+<h2 id="3、检查hexo是否安装正确"><a href="#3、检查hexo是否安装正确" class="headerlink" title="3、检查hexo是否安装正确"></a>3、检查hexo是否安装正确</h2><p><code>hexo -v</code> <br><br><img src="http://i.imgur.com/KWsViol.png" alt="hexo验证是否成功安装"></p>
+<h1 id="三、Hexo配置"><a href="#三、Hexo配置" class="headerlink" title="三、Hexo配置"></a>三、Hexo配置</h1><h2 id="1、初始化Hexo"><a href="#1、初始化Hexo" class="headerlink" title="1、初始化Hexo"></a>1、初始化Hexo</h2><p>首先要确保F:/hexo文件夹为空文件夹，然后继续上面的操作，在命令行中输入： <br><br><code>hexo init</code> <br></p>
+<h2 id="2、安装组件"><a href="#2、安装组件" class="headerlink" title="2、安装组件"></a>2、安装组件</h2><p>在命令行输入：<br><br><code>npm install</code> <br></p>
+<h2 id="3、生成hexo"><a href="#3、生成hexo" class="headerlink" title="3、生成hexo"></a>3、生成hexo</h2><p>在命令行输入：<br><br><code>hexo g</code></p>
+<h2 id="4、预览hexo"><a href="#4、预览hexo" class="headerlink" title="4、预览hexo"></a>4、预览hexo</h2><p>在命令行输入：<br><br><code>hexo s</code> 会提示：<br><br><img src="http://i.imgur.com/kYFNxan.png" alt="hexo浏览地址"> <br><br>然后浏览器打开<a href="http://localhost:4000/，你将会看到：" target="_blank" rel="external">http://localhost:4000/，你将会看到：</a> <br><br><img src="http://i.imgur.com/5MrsCZh.png" alt="预览hexo"> <br><br>PS:hexo默认端口为4000，若hexo安装成功，可以正常运行，启动也没问题，但是不能访问，那可能是4000端口被占用了。这时，你在启动hexo的时候在命令行输入<code>hexo s -p 5000</code>换一下端口便能正常访问了。</p>
+<h1 id="四、修改配置文件"><a href="#四、修改配置文件" class="headerlink" title="四、修改配置文件"></a>四、修改配置文件</h1><h2 id="1、注册Github账号"><a href="#1、注册Github账号" class="headerlink" title="1、注册Github账号"></a>1、注册Github账号</h2><p>省略。</p>
+<h2 id="2、创建Repository"><a href="#2、创建Repository" class="headerlink" title="2、创建Repository"></a>2、创建Repository</h2><p>创建的时候注意Repository的名字。比如我的Github账号是hmq123，那么我应该创建的Repository的名字是：hmq123.github.io。<br><br><img src="http://i.imgur.com/CDObzZC.png" alt="Repository命名"></p>
+<h2 id="3、修改配置文件"><a href="#3、修改配置文件" class="headerlink" title="3、修改配置文件"></a>3、修改配置文件</h2><h3 id="1-拷贝Repository地址"><a href="#1-拷贝Repository地址" class="headerlink" title="1)拷贝Repository地址"></a>1)拷贝Repository地址</h3><p><img src="http://i.imgur.com/VYHbueX.png" alt="Repository地址"></p>
+<h3 id="2-编辑-config-yml文件（在F-hexo下）。"><a href="#2-编辑-config-yml文件（在F-hexo下）。" class="headerlink" title="2)编辑_config.yml文件（在F:\hexo下）。"></a>2)编辑_config.yml文件（在F:\hexo下）。</h3><p><img src="http://i.imgur.com/zOYc88b.png" alt="配置文件"></p>
+<h3 id="3-修改文件里面的deploy节点。其中的repository就改成你刚刚复制的地址，最后保存这个文件。"><a href="#3-修改文件里面的deploy节点。其中的repository就改成你刚刚复制的地址，最后保存这个文件。" class="headerlink" title="3)修改文件里面的deploy节点。其中的repository就改成你刚刚复制的地址，最后保存这个文件。"></a>3)修改文件里面的deploy节点。其中的repository就改成你刚刚复制的地址，最后保存这个文件。</h3><p><img src="http://i.imgur.com/RYTijYK.png" alt="修改deploy节点"></p>
+<h1 id="五、设置SSH-keys"><a href="#五、设置SSH-keys" class="headerlink" title="五、设置SSH keys"></a>五、设置SSH keys</h1><h2 id="1、在Git-Bash输入以下指令（任意位置点击鼠标右键），检查是否已经存在了SSH-keys。"><a href="#1、在Git-Bash输入以下指令（任意位置点击鼠标右键），检查是否已经存在了SSH-keys。" class="headerlink" title="1、在Git Bash输入以下指令（任意位置点击鼠标右键），检查是否已经存在了SSH keys。"></a>1、在Git Bash输入以下指令（任意位置点击鼠标右键），检查是否已经存在了SSH keys。</h2><p><code>ls -al ~/.ssh</code> <br><br><img src="http://i.imgur.com/5qXmWD3.png" alt="不存在SSH Keys"> <br><br>上图表示不存在，不存在进入第二步。下图表示存在SSH Keys: <br><br><img src="http://i.imgur.com/q5A0OJe.png" alt="存在SSH Keys"> <br><br>如果存在的话直接删除.ssh文件夹里面的所有文件。 <br><br><img src="http://i.imgur.com/boLBzSO.png" alt=".ssh文件位置"></p>
+<h2 id="2、输入以下指令（邮箱就是你注册Github时候的邮箱）后，回车："><a href="#2、输入以下指令（邮箱就是你注册Github时候的邮箱）后，回车：" class="headerlink" title="2、输入以下指令（邮箱就是你注册Github时候的邮箱）后，回车："></a>2、输入以下指令（邮箱就是你注册Github时候的邮箱）后，回车：</h2><p><code>ssh-keygen -t rsa -C &quot;380***0@qq.com&quot;</code> <br><br><img src="http://i.imgur.com/ZQhWB1k.png" alt=""> <br><br>然后它会提示要你输入passphrase（如上图，我没有输入直接回车，如果你输入的话，要记得，到时候会用到）。</p>
+<h2 id="3、然后键入以下指令："><a href="#3、然后键入以下指令：" class="headerlink" title="3、然后键入以下指令："></a>3、然后键入以下指令：</h2><p><code>ssh-agent -s</code> <br><br><img src="http://i.imgur.com/JvUh2Z1.png" alt=""></p>
+<h2 id="4、继续输入指令："><a href="#4、继续输入指令：" class="headerlink" title="4、继续输入指令："></a>4、继续输入指令：</h2><p><code>ssh-add ~/.ssh/id_rsa</code> <br><br>输入之后，在我这里是出错了，不知道你的有没有出错。 <br><br><img src="http://i.imgur.com/thaAxcK.png" alt=""> <br><br>如果你的也是这样子出错了的话，就输入以下指令： <br><br><code>eval &#39;ssh-agent -s&#39;</code> <br><br><code>ssh-add</code> <br><br><img src="http://i.imgur.com/bHMixhN.png" alt=""></p>
+<h2 id="5、复制key"><a href="#5、复制key" class="headerlink" title="5、复制key"></a>5、复制key</h2><p>键入以下指令，拷贝Key（先拷贝了，等一下可以直接粘贴）： <br><br><code>clip &lt; ~/.ssh/id_rsa.pub</code></p>
+<h2 id="6、添加SSH-key到你的Github账户"><a href="#6、添加SSH-key到你的Github账户" class="headerlink" title="6、添加SSH key到你的Github账户"></a>6、添加SSH key到你的Github账户</h2><h3 id="1-打开Setting"><a href="#1-打开Setting" class="headerlink" title="1)打开Setting"></a>1)打开Setting</h3><p><img src="http://i.imgur.com/Gg5e5Vo.png" alt=""></p>
+<h3 id="2-添加SSH"><a href="#2-添加SSH" class="headerlink" title="2)添加SSH"></a>2)添加SSH</h3><p><img src="http://i.imgur.com/hAxPOQp.png" alt="添加SSH"></p>
+<h3 id="3-粘贴SSH-Key"><a href="#3-粘贴SSH-Key" class="headerlink" title="3)粘贴SSH Key"></a>3)粘贴SSH Key</h3><p>这个Key就是刚刚拷贝的，你直接粘贴就好（也可以文本打开./ssh/id_rsa.pub文件）：<br><img src="http://i.imgur.com/2pNKHV6.png" alt="创建SSH Keys"></p>
+<h3 id="4-测试"><a href="#4-测试" class="headerlink" title="4)测试"></a>4)测试</h3><p>输入你的Github密码即可完成SSH Key的添加。键入以下命令，测试一下： <br><br><img src="http://i.imgur.com/n1tbW9j.png" alt="测试"> <br><br>你可能会看到有警告，没事，输入“yes”就好。</p>
+<h1 id="六、部署hexo"><a href="#六、部署hexo" class="headerlink" title="六、部署hexo"></a>六、部署hexo</h1><h2 id="1、生成并部署hexo"><a href="#1、生成并部署hexo" class="headerlink" title="1、生成并部署hexo"></a>1、生成并部署hexo</h2><p>输入命令行： <br><br><code>hexo d -g #在部署前先生成</code></p>
 <h1 id="附参考地址："><a href="#附参考地址：" class="headerlink" title="附参考地址："></a>附参考地址：</h1><p><a href="http://blog.csdn.net/gdutxiaoxu/article/details/53576018" target="_blank" rel="external">http://blog.csdn.net/gdutxiaoxu/article/details/53576018</a><br><a href="http://jingyan.baidu.com/article/d8072ac47aca0fec95cefd2d.html" target="_blank" rel="external">http://jingyan.baidu.com/article/d8072ac47aca0fec95cefd2d.html</a><br><a href="http://blog.csdn.net/u012246342/article/details/51543370" target="_blank" rel="external">http://blog.csdn.net/u012246342/article/details/51543370</a></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/07/19/搭建属于自己的博客——Github-Hexo/" data-id="cj5au9guz0000ekstq62t1u3a" class="article-share-link">Partager</a>
+      <a data-url="http://yoursite.com/2017/07/19/搭建属于自己的博客——Github-Hexo/" data-id="cj5c59ox70001o4st1xc5stq9" class="article-share-link">Delen</a>
       
       
     </footer>
@@ -103,7 +147,7 @@
   
   
     <a href="/2017/07/19/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Ancien</strong>
+      <strong class="article-nav-caption">Ouder</strong>
       <div class="article-nav-title">Hello World</div>
     </a>
   
@@ -126,7 +170,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
+    <h3 class="widget-title">Archieven</h3>
     <div class="widget">
       <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/07/">July 2017</a></li></ul>
     </div>
@@ -136,7 +180,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Articles récents</h3>
+    <h3 class="widget-title">Recente berichten</h3>
     <div class="widget">
       <ul>
         
@@ -161,7 +205,7 @@
   <div class="outer">
     <div id="footer-info" class="inner">
       &copy; 2017 John Doe<br>
-      Propulsé by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
 </footer>
