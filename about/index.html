@@ -6,17 +6,18 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
   
-  <title>Tag: Blog | Monkery Blog</title>
+  <title>My Works | Monkery Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="��ˮ��ʯ">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Monkery Blog">
-<meta property="og:url" content="http://yoursite.com/tags/Blog/index.html">
+<meta property="og:title" content="My Works">
+<meta property="og:url" content="http://yoursite.com/about/index.html">
 <meta property="og:site_name" content="Monkery Blog">
 <meta property="og:description" content="��ˮ��ʯ">
 <meta property="og:locale" content="zh-TW">
+<meta property="og:updated_time" content="2017-07-21T03:40:12.831Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Monkery Blog">
+<meta name="twitter:title" content="My Works">
 <meta name="twitter:description" content="��ˮ��ʯ">
   
     <link rel="alternate" href="/atom.xml" title="Monkery Blog" type="application/atom+xml">
@@ -96,54 +97,144 @@
   <div id="main-wrap" class="position-relative" style="margin-top: 55px;">
       <div class="main-inner-content">
           <style>
-    .container.tag-cate-wrap {
-        min-height: 93vh;
+
+    header .bg-header {
+        height: 560px;
+        /*background-color: #62A4FF;*/
+        background-image: -webkit-linear-gradient(top, #54D3DD, #9778F9)
     }
 
-    .category-title-inner {
-        padding-top: 50px;
+    /*头像*/
+    .bg-header .avatar img {
+        border-radius: 50%;
+        margin-top: 100px;
+        max-width: 170px;
     }
 
-    strong {
-        text-transform: capitalize;
+    .bg-header h1,
+    .bg-header h2 {
+        color: white;
+    }
+
+    /*姓名*/
+    .bg-header h1 {
+        letter-spacing: 2px;
+        text-shadow: 0 0 10px rgba(15, 15, 15, .3);
+    }
+
+    /*描述*/
+    .bg-header h2 {
+        font-size: 18px;
+        margin-top: 12px;
+    }
+
+    /*整个作品展示区*/
+    .works-area {
+        margin-top: -175px;
+    }
+
+    .works-area .works-item {
+        width: 80%;
+        max-width: 1200px;
+
+        border-radius: 2px;
+        border: 1px solid #eee8d5;
+        margin: 25px auto;
+        box-shadow: 8px 5px 10px rgba(0, 0, 0, .2);
+    }
+
+    .works-item-img {
+        margin: auto -26px;
+    }
+
+    .works-item-img img {
+        width: 100%;
+    }
+
+    .works-area .works-item {
+        background: white;
+        padding: 0 25px 15px;
+    }
+
+    .works-item .works-content {
+        padding-top: 15px;
+    }
+
+    .works-item .title {
+        height: 50px;
+        margin: 0;
+    }
+
+    .works-item .title{
+        font-size: 18px;
+    }
+
+    .works-item .use span {
+        display: inline-block;
+        font-size: 12px;
+        border-radius: 3px;
+        padding: 0 4px;
+        border: thin solid #795548;
+    }
+
+    .works-item .subtitle {
+        margin: 0;
+        font-size: 17px;
     }
 </style>
 
-
-<div class="container tag-cate-wrap">
-    <div class="category-title-inner content has-text-centered">
-        <h1><strong style="border-top: 2px solid; border-bottom: 2px solid;">tag·Blog</strong></h1>
-    </div>
-
-    
-    
-        <div class="box">
-            <article class="media">
-                
-                <a href="/2017/07/19/搭建属于自己的博客——Github-Hexo/">
-                    
-                    <div class="media-left">
-                        <figure class="image is-128x128">
-                            <img src="http://i.imgur.com/DOcAKHM.png" style="height: 100%; width: 100%">
-                        </figure>
-                    </div>
-                    
-                    <div class="media-content">
-                        <div class="content">
-                            <p>
-                                <strong>搭建属于自己的博客——Github+Hexo</strong> <small class="post-date">at: 2017-07-19</small>
-                                <br>
-                                搭建指南百度一下，关于Github+Hexo搭建博客的相关资料很多，我也是在前人的基础上学习，希望能帮助大家快速搭建博客。
-一、环境准备1、Node.js安装安装教程先自行百度，后期有时间奉上。直接进入验证node.js是否正确安装：打开cmd，输入以下命令：    node -v     npm -v  如下图出现版本号信息即已成功安装：
-2、Git安..
-                            </p>
-                            <button class="button is-info">Read</button>
-                        </div>
-                    </div>
-                </a>
-            </article>
+<div class="works-container" style="background-color: #fafafa">
+    <header>
+        <div class="bg-header is-flex justify-center">
+            <div class="profile">
+                <div class="avatar">
+                    <img src="http://qq1234.org/uploads/allimg/141205/3_141205094951_8.jpg">
+                </div>
+                <div class="personal-profile has-text-centered content">
+                    <h1>
+                        Maggie
+                    </h1>
+                    <h2>-- 个人作品集 --</h2>
+                </div>
+            </div>
         </div>
-    
+    </header>
+    <div class="container works-area">
+        
+            <div class="works-item">
+                <div class="title is-flex center justify-space-between ">
+                    <span>
+                        <strong>������Լ��Ĳ��͡���Github+Hexo</strong>
+                    </span>
+                    <span class="title-date tag is-dark">
+                        2017.7
+                    </span>
+                </div>
+                <div class="works-item-img">
+                    <img src="">
+                </div>
+                <div class="works-content">
+                    <div class="use text-warning">
+                        
+                        <span>
+                                Article
+                            </span>
+                        
+                    </div>
+                    　
+                    <p class="subtitle">  </p>
+
+                    <p class="text-muted"> ���ͽ̡̳� </p>
+                </div>
+                <div class="is-flex" style="margin-top: 30px;">
+                    <a class="button is-info" href="https://hmq123.github.io/2017/07/19/������Լ��Ĳ��͡���Github-Hexo/" target="_blank">
+                        Open it
+                    </a>
+                </div>
+
+            </div>
+        
+    </div>
 </div>
       </div>
   </div>
